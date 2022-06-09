@@ -37,14 +37,14 @@ async function __START() {
         auth: state,
         version
     })
-console.log(color('[DEFF CHAN]', 'cyan'), color('Bot Online', 'yellow'))
+console.log(color('[DEFF CHAN]', 'cyan'), color('GilzzMD', 'yellow'))
 console.log(color('[WARNING]', 'cyan'), color(`INGFO CREATOR`, 'yellow'))
 console.log(color('Instagram :', 'cyan'), color(`@deff.xyz`, 'yellow'))
-console.log(color('Github :', 'cyan'), color(`@DEFF1602`, 'yellow'))
-console.log(color('Wangsap :', 'cyan'), color(`089501060783`, 'yellow'))
+console.log(color('Github :', 'cyan'), color(`@GiLzBotZ`, 'yellow'))
+console.log(color('Wangsap :', 'cyan'), color(`081241056195`, 'yellow'))
 console.log(color('\n', 'cyan'), color('\nWelcome back, Owner! Hope you are doing well~', 'yellow'))
 
-sock.browserDescription = ["DEFF-MD", "Mac", "3.0.0"];
+sock.browserDescription = ["Gilzz-MD", "Mac", "3.0.0"];
 sock.ev.on('messages.upsert', async chatUpdate => {
 try {
 mek = chatUpdate.messages[0]
@@ -109,7 +109,7 @@ let buttons = [
 let buttonMessage = {
 image: await getBuffer(ppuser), 
 caption: mbc,
-footer: "© DEFFBOTZ - BY - DEFF",
+footer: "© GilzzBOTZ - BY - Gilzz",
 mentions:[orgnye],
 buttons: buttons,
 headerType: 4,
